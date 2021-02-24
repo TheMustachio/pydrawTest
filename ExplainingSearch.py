@@ -18,6 +18,7 @@ java_binary_search = [Text(screen, ' int low = 0;', 20, 60, Color('white')),  # 
                       Text(screen, 'else', 40, 220, Color('white')),  # 8
                       Text(screen, 'return mid;}', 60, 240, Color('white')),  # 9
                       Text(screen, 'return -1;', 20, 260, Color('white'))]  # 10
+
 java_linear_search = [Text(screen, 'for( int i = 0; i<list.length;i++){', 20, 60, Color('white')),  # 0
                       Text(screen, 'if( list[i] == (Number Wanted))', 40, 80, Color('white')),  # 1
                       Text(screen, 'return i;', 60, 100, Color('white')),  # 2
